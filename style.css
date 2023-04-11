@@ -42,6 +42,7 @@ header {
 
 .header-image {
     width: 300px;
+    border-radius: 50px;
 }
 
 .header-links, .last-para {
@@ -162,6 +163,7 @@ header {
     height: 45px;
     border-radius: 10px;
     border-style: solid;
+    font-size: 18px;
 }
 
 .footer {
@@ -171,4 +173,5 @@ header {
     display: flex;
     padding: 20px;
     justify-content: center;
+    font-weight: 100;
 }
