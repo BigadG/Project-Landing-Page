@@ -1,9 +1,27 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 header {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.header-links-parent {
+    display: flex;
+    gap: 25px;
+    font-weight: 100;
 }
 
 .header-link-left {
@@ -11,51 +29,136 @@ header {
     color: #f9faf8;
 }
 
-.header-links, .header-secondary-text, .last-para {
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.left-bottom-header {
+    width: 460px;
+}
+
+.header-links, .last-para {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
 }
 
 .header-main-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin: 0px;
 }
 
-.first-button, .blue-box, .bottom-button {
+.first-button {
     background-color: #3882f6;
+    color: #f9faf8;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: hidden;
+    font-size: 18px;
+}
+
+.first-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 200px;
+    margin: 50px 0 80px 0;
+}
+
+.all-images-captions {
+    display: flex;
+    gap: 32px;
+}
+
+.images-captions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    text-align: center;
 }
 
 .centered-header {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-bottom: 40px;
 }
 
 .text {
     color: #5a5a5a;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .second-body {
     background-color: #e5e7eb;
+    padding: 90px 200px 75px;
 }
 
 .quote {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: lighter;
     color: #1f2937;
+    width: 900px;
 }
 
 .quote-author {
     font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    padding-right: 100px;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    margin: 80px 180px;
+    padding: 45px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .call-to-action {
     font-size: 24px;
     color: #e5e7eb;
+    margin: 0px;
+}
+
+.last-para {
+    margin: 0;
+    font-weight: 100;
 }
 
 .bottom-button {
+    background-color: #3882f6;
     color: #e5e7eb;
     border-color: #e5e7eb;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
 }
